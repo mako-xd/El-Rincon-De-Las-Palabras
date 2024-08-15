@@ -1,0 +1,60 @@
+body {
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Comic Sans MS', sans-serif;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #FF0000;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  img {
+    border: 1px solid #000;
+  }
+  
+  .comic-panel {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #FFF;
+  }
+  
+  .comic-panel .panel-border {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+  }
+  
+  .comic-panel .panel-content {
+    padding: 10px;
+  }
+  
+  .comic-speech-bubble {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: #FFF;
+    position: relative;
+  }
+  
+  .comic-speech-bubble .speech-bubble-tail {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  
+  .comic-speech-bubble .speech-bubble-text {
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 10px;
+  }
